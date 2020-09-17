@@ -13,14 +13,16 @@
 
 ### x轴方向合并
 - 对于随机生成的文字框，按照x轴方向（即同一行框的合并），如下图所示：<br>
-Run `python link_boxes_test.py `
+
+运行`python link_boxes_test.py `
 
 ![example1.jpg](./out_img/4.png)
 
 ### y轴方向合并
 - 对于随机生成的文字框，按照y轴方向（即区域框的合并），此种合并方式适用于同一张图片上，文字内容分栏，比如论文经常分成两栏，
 如果仅仅对于整行文字的合并，对于这种情况不能很好的得到语义连贯的信息。合并情况如下图所示：<br>
-Run `python link_y_boxes.py `
+
+运行 `python link_y_boxes.py `
 
 ![example1.jpg](./out_img/7.png)
 
